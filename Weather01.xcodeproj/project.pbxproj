@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F1BF058E1E215B1000052F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF058D1E215B1000052F46 /* AppDelegate.swift */; };
-		F1BF05901E215B1000052F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF058F1E215B1000052F46 /* ViewController.swift */; };
 		F1BF05931E215B1000052F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BF05911E215B1000052F46 /* Main.storyboard */; };
 		F1BF05951E215B1000052F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BF05941E215B1000052F46 /* Assets.xcassets */; };
 		F1BF05981E215B1000052F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BF05961E215B1000052F46 /* LaunchScreen.storyboard */; };
 		F1BF05A31E215B1000052F46 /* Weather01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF05A21E215B1000052F46 /* Weather01Tests.swift */; };
+		F1BF05AF1E2160D200052F46 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF05AE1E2160D200052F46 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		F1BF058A1E215B1000052F46 /* Weather01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BF058D1E215B1000052F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1BF058F1E215B1000052F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1BF05921E215B1000052F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1BF05941E215B1000052F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1BF05971E215B1000052F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		F1BF059E1E215B1000052F46 /* Weather01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weather01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BF05A21E215B1000052F46 /* Weather01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather01Tests.swift; sourceTree = "<group>"; };
 		F1BF05A41E215B1000052F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BF05AE1E2160D200052F46 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		F1BF058C1E215B1000052F46 /* Weather01 */ = {
 			isa = PBXGroup;
 			children = (
+				F1BF05AD1E21609300052F46 /* View Controllers */,
 				F1BF058D1E215B1000052F46 /* AppDelegate.swift */,
-				F1BF058F1E215B1000052F46 /* ViewController.swift */,
 				F1BF05911E215B1000052F46 /* Main.storyboard */,
 				F1BF05941E215B1000052F46 /* Assets.xcassets */,
 				F1BF05961E215B1000052F46 /* LaunchScreen.storyboard */,
@@ -94,6 +94,14 @@
 				F1BF05A41E215B1000052F46 /* Info.plist */,
 			);
 			path = Weather01Tests;
+			sourceTree = "<group>";
+		};
+		F1BF05AD1E21609300052F46 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF05AE1E2160D200052F46 /* MainViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1BF05901E215B1000052F46 /* ViewController.swift in Sources */,
+				F1BF05AF1E2160D200052F46 /* MainViewController.swift in Sources */,
 				F1BF058E1E215B1000052F46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,6 +13,10 @@
 		F1BF05981E215B1000052F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BF05961E215B1000052F46 /* LaunchScreen.storyboard */; };
 		F1BF05A31E215B1000052F46 /* Weather01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF05A21E215B1000052F46 /* Weather01Tests.swift */; };
 		F1BF05AF1E2160D200052F46 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF05AE1E2160D200052F46 /* MainViewController.swift */; };
+		F1BF05B21E225C4800052F46 /* RibbonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF05B11E225C4800052F46 /* RibbonButton.swift */; };
+		F1BF05B51E22756E00052F46 /* Nosifer-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BF05B41E22756E00052F46 /* Nosifer-Regular.ttf */; };
+		F1BF05B71E22759400052F46 /* Lilly__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BF05B61E22759400052F46 /* Lilly__.ttf */; };
+		F1BF05B91E22761500052F46 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BF05B81E22761500052F46 /* weathericons-regular-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		F1BF05A21E215B1000052F46 /* Weather01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather01Tests.swift; sourceTree = "<group>"; };
 		F1BF05A41E215B1000052F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1BF05AE1E2160D200052F46 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F1BF05B11E225C4800052F46 /* RibbonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibbonButton.swift; sourceTree = "<group>"; };
+		F1BF05B41E22756E00052F46 /* Nosifer-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nosifer-Regular.ttf"; sourceTree = "<group>"; };
+		F1BF05B61E22759400052F46 /* Lilly__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lilly__.ttf; sourceTree = "<group>"; };
+		F1BF05B81E22761500052F46 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +85,11 @@
 		F1BF058C1E215B1000052F46 /* Weather01 */ = {
 			isa = PBXGroup;
 			children = (
-				F1BF05AD1E21609300052F46 /* View Controllers */,
 				F1BF058D1E215B1000052F46 /* AppDelegate.swift */,
 				F1BF05911E215B1000052F46 /* Main.storyboard */,
+				F1BF05AD1E21609300052F46 /* View Controllers */,
+				F1BF05B01E225C1000052F46 /* Odds and Ends */,
+				F1BF05B31E22752000052F46 /* Resources */,
 				F1BF05941E215B1000052F46 /* Assets.xcassets */,
 				F1BF05961E215B1000052F46 /* LaunchScreen.storyboard */,
 				F1BF05991E215B1000052F46 /* Info.plist */,
@@ -102,6 +112,24 @@
 				F1BF05AE1E2160D200052F46 /* MainViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F1BF05B01E225C1000052F46 /* Odds and Ends */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF05B11E225C4800052F46 /* RibbonButton.swift */,
+			);
+			path = "Odds and Ends";
+			sourceTree = "<group>";
+		};
+		F1BF05B31E22752000052F46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF05B81E22761500052F46 /* weathericons-regular-webfont.ttf */,
+				F1BF05B61E22759400052F46 /* Lilly__.ttf */,
+				F1BF05B41E22756E00052F46 /* Nosifer-Regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BF05B71E22759400052F46 /* Lilly__.ttf in Resources */,
+				F1BF05B51E22756E00052F46 /* Nosifer-Regular.ttf in Resources */,
+				F1BF05B91E22761500052F46 /* weathericons-regular-webfont.ttf in Resources */,
 				F1BF05981E215B1000052F46 /* LaunchScreen.storyboard in Resources */,
 				F1BF05951E215B1000052F46 /* Assets.xcassets in Resources */,
 				F1BF05931E215B1000052F46 /* Main.storyboard in Resources */,
@@ -210,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1BF05AF1E2160D200052F46 /* MainViewController.swift in Sources */,
+				F1BF05B21E225C4800052F46 /* RibbonButton.swift in Sources */,
 				F1BF058E1E215B1000052F46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
